@@ -1,4 +1,14 @@
-import { Box, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, Slider, Stack, Typography } from '@mui/material';
+import {
+  Box,
+  FormControl,
+  FormControlLabel,
+  FormLabel,
+  Radio,
+  RadioGroup,
+  Slider,
+  Stack,
+  Typography,
+} from '@mui/material';
 import { useConfigurator } from '../contexts/configurator';
 export const Interface = () => {
   const { tableWidth, setTableWidth, legs, setLegs, legsColor, setLegsColor, top, setTop } = useConfigurator();
