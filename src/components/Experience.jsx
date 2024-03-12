@@ -6,7 +6,12 @@ export const Experience = () => {
   const { legs } = useConfigurator();
   return (
     <>
-      <Stage intensity={0} environment='studio' shadows={{ type: 'accumulative', color: '#e0c3fc', colorBlend: 3, opacity: 1 }} adjustCamera={2}>
+      <Stage
+        intensity={0}
+        environment='studio'
+        shadows={{ type: 'accumulative', color: '#e0c3fc', colorBlend: 3, opacity: 1 }}
+        adjustCamera={2}
+      >
         <Table />
       </Stage>
       <OrbitControls makeDefault minPolarAngle={0} maxPolarAngle={Math.PI / 2} />

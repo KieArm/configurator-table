@@ -23,7 +23,7 @@ export const Interface = () => {
       p={3}
     >
       <Stack spacing={1}>
-        <Box className='glass' p={2} align='center'>
+        <Box className='glass' p={2}>
           <FormControl>
             <Typography variant='overline'>Table Width</Typography>
             <Slider
@@ -38,7 +38,7 @@ export const Interface = () => {
             />
           </FormControl>
         </Box>
-        <Box className='glass' p={2} align='center'>
+        <Box className='glass' p={2}>
           <FormControl>
             <Typography variant='overline'>Top</Typography>
             <RadioGroup value={top} onChange={(e) => setTop(e.target.value)}>
@@ -51,7 +51,7 @@ export const Interface = () => {
             </RadioGroup>
           </FormControl>
         </Box>
-        <Box className='glass' p={2} align='center'>
+        <Box className='glass' p={2}>
           <FormControl>
             <Typography variant='overline'>Legs</Typography>
             <RadioGroup value={legs} onChange={(e) => setLegs(parseInt(e.target.value))}>
@@ -61,7 +61,7 @@ export const Interface = () => {
             </RadioGroup>
           </FormControl>
         </Box>
-        <Box className='glass' p={2} align='center'>
+        <Box className='glass' p={2}>
           <FormControl>
             <Typography variant='overline'>Legs Colour</Typography>
             <RadioGroup value={legsColor} onChange={(e) => setLegsColor(e.target.value)}>
