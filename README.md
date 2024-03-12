@@ -1,6 +1,6 @@
 # 3D Table Configurator (React)
 
-This app was built with React, Three.js, R3F, context and state.
+This app was built with React, Three.js, R3F, context, state and Material UI.
 
 [Live Demo](https://kierana.dev/configurator-table/)
 
